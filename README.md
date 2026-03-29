@@ -1,16 +1,28 @@
-# vibe-black README
+# Vibe Black
 
-## Working with Markdown
+A seamless, deep black theme for VS Code and compatible editors.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Preview
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+![Vibe Black Screenshot](images/ss.png)
 
-## For more information
+## Features
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- True dark surfaces for low-glare coding sessions
+- Balanced syntax colors for Python, JavaScript, TypeScript, JSON, and Markdown
+- High-contrast UI elements while keeping a calm visual tone
 
-**Enjoy!**
+## Installation
+
+Search for `mhdstk.vibe-black` in the Extensions marketplace and click Install.
+
+## Activate Theme
+
+1. Open Command Palette (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux)
+2. Run `Preferences: Color Theme`
+3. Select `Vibe Black`
+
+## Repository
+
+- GitHub: https://github.com/mhdstk/vibe-black
+- License: MIT
