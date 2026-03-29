@@ -1,0 +1,27 @@
+{
+  "name": "vibe-black",
+  "displayName": "Vibe Black",
+  "description": "A seamless, deep black theme inspired by Cursor",
+  "version": "0.0.2",
+  "publisher": "mhdstk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhdstk/vibe-black"
+  },
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vibe Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Vibe Black-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
