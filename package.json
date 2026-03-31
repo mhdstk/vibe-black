@@ -21,6 +21,11 @@
         "label": "Vibe Black",
         "uiTheme": "vs-dark",
         "path": "./themes/vibe-black.json"
+      },
+      {
+        "label": "Vibe Black Lite",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vibe-black-lite.json"
       }
     ]
   },
