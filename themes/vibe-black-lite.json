@@ -147,6 +147,37 @@
     "gitDecoration.ignoredResourceForeground": "#808080",
     "gitDecoration.conflictingResourceForeground": "#EE5454"
   },
+  "semanticTokenColors": {
+    "comment": { "foreground": "#5E9E4D", "italic": true },
+    "string": "#D4A07A",
+    "number": "#A8C898",
+    "keyword": "#5BA0D0",
+    "operator": "#C0C0C0",
+    "type": "#42C0A8",
+    "class": "#42C0A8",
+    "interface": { "foreground": "#42C0A8", "italic": true },
+    "enum": "#42C0A8",
+    "enumMember": "#42B4F4",
+    "typeParameter": "#42C0A8",
+    "function": "#D8D490",
+    "method": "#D8D490",
+    "macro": "#D8D490",
+    "variable": "#8DCBF4",
+    "variable.readonly": "#42B4F4",
+    "parameter": { "foreground": "#8DCBF4", "italic": true },
+    "property": "#8DCBF4",
+    "property.readonly": "#42B4F4",
+    "namespace": "#42C0A8",
+    "decorator": "#B880C0",
+    "builtinType": "#42C0A8",
+    "label": "#B880C0",
+    "stringEscapeSequence": "#C8AE6A",
+    "regexp": "#C86060",
+    "selfParameter": { "foreground": "#5BA0D0", "italic": true },
+    "clsParameter": { "foreground": "#5BA0D0", "italic": true },
+    "builtinConstant": "#5BA0D0",
+    "magicFunction": "#B880C0"
+  },
   "tokenColors": [
     {
       "name": "Comments",
@@ -475,6 +506,196 @@
       ],
       "settings": {
         "foreground": "#5BA0D0"
+      }
+    },
+    {
+      "name": "Python — Docstrings",
+      "scope": [
+        "string.quoted.double.block.python",
+        "string.quoted.single.block.python"
+      ],
+      "settings": {
+        "foreground": "#5E9E4D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python — Decorators",
+      "scope": [
+        "meta.decorator.python",
+        "entity.name.function.decorator.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#B880C0"
+      }
+    },
+    {
+      "name": "Python — self / cls",
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#5BA0D0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python — Built-in Functions",
+      "scope": ["support.function.builtin.python"],
+      "settings": {
+        "foreground": "#D8D490"
+      }
+    },
+    {
+      "name": "Python — Built-in Types & Classes",
+      "scope": [
+        "support.type.python",
+        "support.class.python"
+      ],
+      "settings": {
+        "foreground": "#42C0A8"
+      }
+    },
+    {
+      "name": "Python — Type Annotations",
+      "scope": [
+        "variable.annotation.python",
+        "meta.function.annotation.python",
+        "meta.function.annotation.return.python"
+      ],
+      "settings": {
+        "foreground": "#42C0A8"
+      }
+    },
+    {
+      "name": "Python — f-string Interpolation Braces",
+      "scope": [
+        "punctuation.section.f-expression.begin.python",
+        "punctuation.section.f-expression.end.python"
+      ],
+      "settings": {
+        "foreground": "#B880C0"
+      }
+    },
+    {
+      "name": "Python — Magic Variables (__name__, __all__, etc.)",
+      "scope": ["support.variable.magic.python"],
+      "settings": {
+        "foreground": "#42B4F4"
+      }
+    },
+    {
+      "name": "JSX / TSX — React Components (PascalCase)",
+      "scope": [
+        "support.class.component.jsx",
+        "support.class.component.tsx",
+        "support.class.component.js",
+        "support.class.component.ts"
+      ],
+      "settings": {
+        "foreground": "#42C0A8"
+      }
+    },
+    {
+      "name": "Template Literal — Interpolation Braces",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#B880C0"
+      }
+    },
+    {
+      "name": "TypeScript — Type Aliases",
+      "scope": [
+        "entity.name.type.alias.ts",
+        "entity.name.type.alias.tsx"
+      ],
+      "settings": {
+        "foreground": "#42C0A8"
+      }
+    },
+    {
+      "name": "JSDoc Tags & Types",
+      "scope": [
+        "storage.type.class.jsdoc",
+        "punctuation.definition.block.tag.jsdoc",
+        "entity.name.type.instance.jsdoc",
+        "variable.other.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#5E9E4D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TypeScript — Utility Types (Partial, Record, etc.)",
+      "scope": ["support.type.utility.ts"],
+      "settings": {
+        "foreground": "#42C0A8"
+      }
+    },
+    {
+      "name": "Go — package / import Keywords",
+      "scope": [
+        "keyword.package.go",
+        "keyword.import.go",
+        "keyword.other.package.go",
+        "keyword.other.import.go"
+      ],
+      "settings": {
+        "foreground": "#B880C0"
+      }
+    },
+    {
+      "name": "Go — Package Name",
+      "scope": ["entity.name.package.go"],
+      "settings": {
+        "foreground": "#42C0A8"
+      }
+    },
+    {
+      "name": "Go — Built-in Functions (make, len, append, cap, etc.)",
+      "scope": ["support.function.builtin.go"],
+      "settings": {
+        "foreground": "#D8D490"
+      }
+    },
+    {
+      "name": "Go — Predeclared Types (int, string, bool, error, etc.)",
+      "scope": [
+        "support.type.predeclared.go",
+        "support.type.builtin.go"
+      ],
+      "settings": {
+        "foreground": "#42C0A8"
+      }
+    },
+    {
+      "name": "Go — Built-in Constants (true, false, nil, iota)",
+      "scope": ["constant.language.go"],
+      "settings": {
+        "foreground": "#5BA0D0"
+      }
+    },
+    {
+      "name": "Go — Raw Strings / Struct Tags",
+      "scope": ["string.quoted.raw.go"],
+      "settings": {
+        "foreground": "#C8A860"
+      }
+    },
+    {
+      "name": "Go — Pointer Operators",
+      "scope": [
+        "keyword.operator.address.go",
+        "keyword.operator.pointer.go"
+      ],
+      "settings": {
+        "foreground": "#C0C0C0"
       }
     },
     {
