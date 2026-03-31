@@ -2,12 +2,27 @@
   "name": "vibe-black",
   "displayName": "Vibe Black",
   "description": "A seamless, deep black theme",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "mhdstk",
   "repository": {
     "type": "git",
     "url": "https://github.com/mhdstk/vibe-black"
   },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "black theme",
+    "amoled",
+    "pure black",
+    "minimal",
+    "clean",
+    "low eye strain",
+    "developer productivity",
+    "vscode theme",
+    "vscode dark theme",
+    "cursor theme",
+    "openvsx theme"
+  ],
   "engines": {
     "vscode": "^1.107.0"
   },

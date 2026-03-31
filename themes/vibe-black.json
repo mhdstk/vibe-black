@@ -25,7 +25,7 @@
     "editor.lineHighlightBackground": "#FFFFFF0D",
     "editor.lineHighlightBorder": "#00000000",
     "editor.selectionBackground": "#1E5899",
-    "editor.selectionHighlightBackground": "#1E589940",
+    "editor.selectionHighlightBackground": "#1E589960",
     "editor.wordHighlightBackground": "#575757B8",
     "editor.wordHighlightStrongBackground": "#004972B8",
     "editor.findMatchBackground": "#515C6A",
@@ -60,7 +60,7 @@
     "tab.inactiveBackground": "#000000",
     "tab.inactiveForeground": "#808080",
     "tab.border": "#00000000",
-    "tab.activeBorderTop": "#007ACC",
+    "tab.activeBorderTop": "#FF4D4D",
     "activityBar.background": "#000000",
     "activityBar.foreground": "#FFFFFF",
     "activityBar.inactiveForeground": "#666666",
@@ -149,10 +149,10 @@
   },
   "semanticTokenColors": {
     "comment": {
-      "foreground": "#608B4E",
+      "foreground": "#4B6A3F",
       "italic": true
     },
-    "string": "#CE9178",
+    "string": "#CFAE8E",
     "number": "#B5CEA8",
     "keyword": "#569CD6",
     "operator": "#B0B0B0",
@@ -165,13 +165,13 @@
     "enum": "#4EC9B0",
     "enumMember": "#4FC1FF",
     "typeParameter": "#4EC9B0",
-    "function": "#DCDCAA",
+    "function": "#FFD700",
     "method": "#DCDCAA",
     "macro": "#DCDCAA",
-    "variable": "#88C8F0",
+    "variable": "#9CDCFE",
     "variable.readonly": "#4FC1FF",
     "parameter": {
-      "foreground": "#88C8F0",
+      "foreground": "#parameter",
       "italic": true
     },
     "property": "#88C8F0",
