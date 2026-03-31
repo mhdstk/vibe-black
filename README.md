@@ -84,3 +84,7 @@ Open an issue or PR — contributions are welcome.
 
 If you like this theme, consider leaving a rating ⭐
 It helps a lot!
+
+## ⭐ Repository
+
+GitHub: https://github.com/mhdstk/vibe-black
