@@ -22,15 +22,13 @@
 
 ## 🖥️ Screenshots
 
-> ![Vibe Black Screenshot](images/ss.png)
+### Python
+
+![Python Screenshot](./images/python.png)
 
 ### JavaScript
 
 ![JS Screenshot](./images/js.png)
-
-### Python
-
-![Python Screenshot](./images/python.png)
 
 ### Terminal + UI
 
