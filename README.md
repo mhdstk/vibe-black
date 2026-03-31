@@ -1,28 +1,88 @@
-# Vibe Black
+# Vibe Black — True AMOLED Coding Theme
 
-A seamless, deep black theme for VS Code and compatible editors.
+> A pure black, ultra-minimal theme designed for long coding sessions and zero distractions.
 
-## Preview
+---
 
-![Vibe Black Screenshot](images/ss.png)
+## ✨ Why Vibe Black?
 
-## Features
+- 🖤 **True AMOLED Black** — real `#000000` background (battery friendly)
+- 🧠 **Low Cognitive Load** — no visual noise, just code
+- ⚡ **Performance Friendly** — minimal rendering overhead
+- 👀 **Easy on Eyes** — optimized contrast for long sessions
 
-- True dark surfaces for low-glare coding sessions
-- Balanced syntax colors for Python, JavaScript, TypeScript, JSON, and Markdown
-- High-contrast UI elements while keeping a calm visual tone
+---
 
-## Installation
+## 🎨 Variants
 
-Search for `mhdstk.vibe-black` in the Extensions marketplace and click Install.
+- **Vibe Black** → Pure black, maximum contrast
+- **Vibe Black Lite** → Slightly softer for better readability in bright environments
 
-## Activate Theme
+---
 
-1. Open Command Palette (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux)
-2. Run `Preferences: Color Theme`
-3. Select `Vibe Black`
+## 🖥️ Screenshots
 
-## Repository
+> ![Vibe Black Screenshot](images/ss.png)
 
-- GitHub: https://github.com/mhdstk/vibe-black
-- License: MIT
+### JavaScript
+
+![JS Screenshot](./images/js.png)
+
+### Python
+
+![Python Screenshot](./images/python.png)
+
+### Terminal + UI
+
+![UI Screenshot](./images/ui.png)
+
+---
+
+## 🧩 Optimized For
+
+- Python (Pylance-style clarity)
+- JavaScript / TypeScript
+- Rust
+- JSON / YAML
+
+---
+
+## 🚀 Installation
+
+1. Open Extensions (`Ctrl+Shift+X`)
+2. Search for **Vibe Black**
+3. Click Install
+4. Select theme:
+    - `Vibe Black`
+    - `Vibe Black Lite`
+
+---
+
+## ⚙️ Recommended Settings
+
+```json
+"editor.semanticHighlighting.enabled": true,
+"editor.fontLigatures": true,
+"workbench.colorTheme": "Vibe Black"
+```
+
+---
+
+## 🧠 Philosophy
+
+Most themes try to look _beautiful_.
+Vibe Black is built to be **invisible** — so you can focus on thinking, not UI.
+
+---
+
+## 💬 Feedback & Contributions
+
+Found an issue or want improvements?
+Open an issue or PR — contributions are welcome.
+
+---
+
+## ⭐ Support
+
+If you like this theme, consider leaving a rating ⭐
+It helps a lot!
