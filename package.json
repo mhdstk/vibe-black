@@ -20,7 +20,7 @@
       {
         "label": "Vibe Black",
         "uiTheme": "vs-dark",
-        "path": "./themes/Vibe Black-color-theme.json"
+        "path": "./themes/vibe-black.json"
       }
     ]
   },
