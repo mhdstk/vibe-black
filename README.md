@@ -78,13 +78,11 @@ Vibe Black is built to be **invisible** — so you can focus on thinking, not UI
 Found an issue or want improvements?
 Open an issue or PR — contributions are welcome.
 
+GitHub: https://github.com/mhdstk/vibe-black
+
 ---
 
 ## ⭐ Support
 
 If you like this theme, consider leaving a rating ⭐
 It helps a lot!
-
-## ⭐ Repository
-
-GitHub: https://github.com/mhdstk/vibe-black
